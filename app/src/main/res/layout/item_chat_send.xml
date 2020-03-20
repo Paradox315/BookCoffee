@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+    <com.wx.roundimageview.RoundImageView
+        android:id="@+id/me"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:src="@mipmap/user" />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@+id/me"
+        android:background="@mipmap/right_text"
+        android:padding="10dp"
+        android:text="消息"
+        android:gravity="center|right"
+        android:layout_centerVertical="true"
+        android:textColor="#0E0000"
+        android:textSize="20dp" />
+
+</RelativeLayout>

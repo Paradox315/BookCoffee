@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/contact_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    <com.cst.bookcoffee.Tools.ContactRightView
+        android:id="@+id/letter_view"
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:background="#ededed"
+        android:layout_alignParentRight="true"
+        />
+</RelativeLayout>
